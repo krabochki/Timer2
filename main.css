@@ -1,0 +1,114 @@
+ul {
+  margin-top: 100px;
+  padding: 0;
+  list-style-type: none;
+  height: 700px;
+  width: 250px;
+  scroll-snap-type: y mandatory;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+ul::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  scroll-snap-align: center;
+
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+
+}
+
+ul button:first-of-type {
+  padding-top: 9rem
+}
+
+ul button:last-of-type {
+  padding-bottom: 9rem;
+}
+
+button {
+  color: white;
+  font-size: 50px;
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+  font-family: "Arial";
+
+}
+
+.current {
+  color: rgb(255, 255, 255);
+  opacity:100%;
+
+  font-weight: 500;
+
+}
+
+
+
+
+.next2{
+  opacity:100%
+}
+.previous,
+.next {
+  opacity:100%;
+  color: rgb(160, 160, 160);
+}
+
+.timer {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: center;
+  width: 70%;
+}
+
+button {
+  color: rgb(87, 87, 87);
+  text-align: center;
+  width: fit-content;
+  font-size: 8rem;
+  transition: 0.15s linear all, opacity 0s;
+  opacity:0
+}
+
+.flexcont div {
+  padding: 0 20px;
+}
+
+.flexcont {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 10px;
+}
+
+.cont {
+
+  margin: 0 auto;
+  width: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 10rem;
+}
+
