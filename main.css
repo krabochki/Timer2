@@ -24,7 +24,6 @@ body {
 }
 
 button {
-  scroll-snap-align: center;
 
   padding: 0;
   border: none;
@@ -57,7 +56,6 @@ button {
   color: rgb(255, 255, 255);
   opacity:100%;
 
-  font-weight: 500;
 
 }
 
@@ -87,7 +85,9 @@ button {
   width: fit-content;
   font-size: 8rem;
   transition: 0.15s linear all, opacity 0s;
-  opacity:0
+  opacity:0;
+  scroll-snap-align:start
+
 }
 
 .flexcont div {
